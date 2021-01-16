@@ -1,0 +1,7 @@
+{
+  "name": "gluehwein.kunst.cloud",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "github.com/gluehwein-bot/gluehwein.kunst.cloud",
+  "license": "MIT"
+}
