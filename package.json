@@ -1,7 +1,25 @@
 {
   "name": "gluehwein.kunst.cloud",
   "version": "0.0.0",
-  "main": "index.js",
   "repository": "github.com/gluehwein-bot/gluehwein.kunst.cloud",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src"
+  },
+  "dependencies": {
+    "cross-fetch": "^3.0.6",
+    "fetch-h2": "^2.5.1",
+    "gray-matter": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.21",
+    "@typescript-eslint/eslint-plugin": "^4.13.0",
+    "@typescript-eslint/parser": "^4.13.0",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
 }

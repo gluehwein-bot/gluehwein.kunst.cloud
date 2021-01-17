@@ -1,0 +1,12 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "strict": true,
+    "moduleResolution": "node",
+    "target": "ES2020",
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "noEmit": true
+  }
+}
